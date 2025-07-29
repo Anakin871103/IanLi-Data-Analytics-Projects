@@ -1,4 +1,4 @@
-# [IanLi-Data-Analytics-Projects] Ian Li's Data Analytics Projects
+# Ian Li's Data Analytics Projects
 
 Welcome to the Ian Li Data Analytics Projects repository! This collection showcases various data analysis projects, including exploratory data analysis, machine learning models, and SQL analysis.
 
