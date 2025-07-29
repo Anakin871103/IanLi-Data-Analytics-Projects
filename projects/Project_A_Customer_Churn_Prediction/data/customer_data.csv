@@ -1,0 +1,11 @@
+customer_id,gender,age,tenure,monthly_charges,total_charges,churn
+1,Male,34,12,70.35,840.20,No
+2,Female,29,24,89.99,2150.50,Yes
+3,Female,45,36,99.99,3599.64,No
+4,Male,23,6,45.00,270.00,Yes
+5,Female,36,18,75.50,1350.00,No
+6,Male,50,48,120.00,5760.00,No
+7,Female,31,30,85.00,2550.00,Yes
+8,Male,40,15,95.00,1425.00,No
+9,Female,28,12,65.00,780.00,Yes
+10,Male,37,24,110.00,2640.00,No
