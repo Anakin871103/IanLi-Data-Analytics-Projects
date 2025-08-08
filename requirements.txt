@@ -10,3 +10,4 @@ sqlalchemy
 pyodbc
 scipy
 tabulate
+re
