@@ -48,7 +48,7 @@ def load_data():
     print(df['target'].value_counts())
     print("\n前5筆資料:")
     print(df.head())
-    
+    print(df)
     return df
 
 # ==============================================================================
