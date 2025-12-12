@@ -36,9 +36,12 @@ def prepare_data_for_modeling(
     # drop_first=True 可以避免共線性問題
     categorical_features = ['Pclass', 'Sex', 'Embarked', 'Title', 'Age_Group']
     df_encoded = pd.get_dummies(df, columns=categorical_features, drop_first=True)
-
+    ## df, 須處裡的 dataframe
+    ## columns=categorical_features, 須處裡的欄位
+    ## drop_first=True, 為了避免「共線性」（dummy variable trap），我們會捨棄每個特徵轉換後的第一個類別欄位。例如，如果Sex有'female'和'male' 兩類，get_dummies 只會產生 Sex_male 這一欄，因為當Sex_male 為 0 時，就隱含了該乘客是 'female'。
+    
     # --- 定義特徵(X)與目標(y) ---
-    # 定義目標變數 y
+    # 定義目標變數 y [（'Survived'）- 是否生還]
     y = df_encoded[target_column]
 
     # 從編碼後的 df 中移除目標變數和指定的其他欄位，得到特徵集 X
